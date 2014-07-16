@@ -1,6 +1,6 @@
 # LTON
 
-> **L**ightweight **T**yped **O**bject **N**otation
+> Lightweight Typed Object Notation
 
 ## Rationale
 
@@ -14,6 +14,7 @@ LTON reduces the cruft and does additional useful stuff (dates, binaries, typed 
 ### Key-Value Pairs
 
 Key-Value-Pair: `type-delimiter key-name "=" value type-delimiter`
+
 type-delimiter: `"'" | "\"" | "#" | "/" | "?" | "&" | "@"`
 
 Example: `#Answer=42#`
